@@ -8,4 +8,6 @@ def calculate_flurry_crit(num_attacks, base_damage):
         else:
             finalDamage += base_damage * 2
 
+        attacksLeft -= 1
+
     return finalDamage
