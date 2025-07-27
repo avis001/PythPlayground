@@ -12,3 +12,19 @@
 -e file:.
 cowsay==6.1
     # via pythonplayground
+deprecated==1.2.18
+    # via pikepdf
+lxml==5.4.0
+    # via pikepdf
+packaging==25.0
+    # via pikepdf
+pikepdf==9.8.1
+    # via pythonplayground
+pillow==11.2.1
+    # via pikepdf
+pypdf2==3.0.1
+    # via pythonplayground
+tqdm==4.67.1
+    # via pythonplayground
+wrapt==1.17.2
+    # via deprecated

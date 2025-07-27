@@ -5,3 +5,10 @@ def reverse_array(items):
         reveresedList.append(items[-index])
 
     return reveresedList
+
+
+def main():
+    reverse_array([5, 2, 1])
+
+
+main()
