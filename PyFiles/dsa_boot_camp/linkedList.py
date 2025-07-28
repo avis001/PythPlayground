@@ -116,6 +116,8 @@ class LinkedList:
     def delFirst(self):
         head = self.head
         self.head = head.next
+        if self.head is None or self.head.next is None:
+            self.tail = self.head
         self.count -= 1
 
     # Delete Last
